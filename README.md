@@ -68,3 +68,31 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+Welcome to git and github 
+
+git init initializes the repo
+git add . adds it to staging
+git commit -m "description goes here" for making commits
+git status to check status of your changes
+git log to show your commits
+
+git restore . for restore
+git restore --staged filedirectory
+eg
+git restore --staged index.html
+or
+git restore -S .
+both are the same
+
+git rm filename
+for deletion that is staged and ready for commit
+eg
+git rm index.html
+
+git mv oldname newname
+to rename file and move to staging for commit
+eg
+git mv index.html home.html
