@@ -96,3 +96,17 @@ git mv oldname newname
 to rename file and move to staging for commit
 eg
 git mv index.html home.html
+
+
+use git amend to edit previous commit
+use pop up to describe commit
+git commit --amend 
+
+use git log --online to show a compressed version of log
+
+
+use git reset hashtag to return to a previous version of a commit
+it ustages them
+with this you can discard changes using restore or add them
+eg
+git reset c0771fd
