@@ -110,3 +110,8 @@ it ustages them
 with this you can discard changes using restore or add them
 eg
 git reset c0771fd
+
+sometimes you want to reset hard to a previous commit and discard all changes
+git reset --hard hashtag
+eg 
+git reset --hard c0771fd
