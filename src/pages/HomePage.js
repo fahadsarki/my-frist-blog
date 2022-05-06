@@ -1,8 +1,10 @@
 import React from "react";
+import NumberCounter from "./NumberCounter";
 const HomePage =()=> {
     return(
         <>
-             
+              <NumberCounter/> 
+              
                 <h1>Welcome to my Blog!</h1>
                 <h4>Make yourself comfortable please</h4>
                 <p>
@@ -22,7 +24,7 @@ const HomePage =()=> {
                     Magna Lorem enim esse ut. Mollit aliqua deserunt ad officia veniam nulla consectetur consectetur 
                     laboris reprehenderit ex minim excepteur. Commodo cillum labore duis excepteur commodo sint minim.
                 </p>
-                
+              
         </>
     
     );
