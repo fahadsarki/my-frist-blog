@@ -11,10 +11,7 @@ const NavBar = () => {
                     <Link to="/about">About</Link>
                 </li>
                 <li display>
-                    <Link to="/articles-list">Articles</Link>
-                </li>
-                <li display>
-                    <Link to="/articles-page">Article Page</Link>
+                    <Link to="/articles">Articles</Link>
                 </li>
             </ul>
         </nav>
