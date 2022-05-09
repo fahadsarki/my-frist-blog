@@ -17,7 +17,6 @@ function App() {
             <Route path="/about" element={<AboutPage />}/>
             <Route path="/articles" element={<ArticlesList />}/>
             <Route path="/articles/:name" element={<ArticlePage />}/>
-            {/* <Route path="/articles-page" element={<ArticlePage  />}/> */}
          </Routes>
         </div>  
       </BrowserRouter>         

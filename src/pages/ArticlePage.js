@@ -8,14 +8,11 @@ const ArticlePage =()=> {
     if (!article) return <h1>Article does not exist!</h1>
     return(
         <>
-            <div>           
-           <h2>{name}</h2>
+        <div>           
            <h3> {article.title} </h3>
-           <p> {article.content} </p>
-
-            </div>
+           <p> {article.content} </p> 
+        </div>
         </>
-    
     );
     
 }
