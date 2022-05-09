@@ -1,5 +1,4 @@
 import React, {useEffect} from "react";
-import NumberCounter from "./NumberCounter";
 const HomePage =()=> {
     useEffect(() => {
       alert("Take a look around")
@@ -8,7 +7,6 @@ const HomePage =()=> {
 
     return(
         <>
-              <NumberCounter/> 
 
                 <h1>Welcome to my Blog!</h1>
                 <h4>Make yourself comfortable please</h4>
